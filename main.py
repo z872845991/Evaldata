@@ -16,7 +16,7 @@ if __name__=='__main__':
     dataname=os.listdir(args.path)
 
     #for _dataname in dataname:
-    for _dataname in ['']:
+    for _dataname in ['test']:
         gtpath=os.path.join(args.path,_dataname,"masks")
         prepath=os.path.join(args.testpath,_dataname)
         files=os.listdir(gtpath)
